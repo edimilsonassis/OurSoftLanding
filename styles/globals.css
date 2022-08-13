@@ -26,7 +26,7 @@ a {
 }
 
 .bg-image3{
-  background: "url('https://apdash.themetags.com/assets/img/hero-bottom-shape-2.svg')no-repeat bottom center;"
+  background: url('https://apdash.themetags.com/assets/img/hero-bottom-shape-2.svg')no-repeat bottom center;
 }
 
 .bg-image2{
