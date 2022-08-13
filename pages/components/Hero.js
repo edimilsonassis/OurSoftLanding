@@ -80,7 +80,7 @@ export default function Hero() {
                     />
                 </div>
             </main>
-            <div className="bottom-0 h-32 -mt-10" style={{ background: "url('https://apdash.themetags.com/assets/img/hero-bottom-shape-2.svg')no-repeat bottom center;" }} ></div>
+            <div className="bottom-0 h-32 -mt-10 bg-image3"></div>
         </div>
     )
 }

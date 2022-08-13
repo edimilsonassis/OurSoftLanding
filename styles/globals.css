@@ -25,6 +25,10 @@ a {
   @apply max-w-md sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl;
 }
 
+.bg-image3{
+  background: "url('https://apdash.themetags.com/assets/img/hero-bottom-shape-2.svg')no-repeat bottom center;"
+}
+
 .bg-image2{
     background: url('https://apdash.themetags.com/assets/img/cta-bg.jpg') no-repeat center center / cover fixed;
 }
