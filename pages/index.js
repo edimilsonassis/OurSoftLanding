@@ -7,7 +7,7 @@ import Navbar from './components/Navbar'
 export default function Home() {
   return (
     <>
-      <Head>Testes</Head>
+      <Head>Testesss</Head>
       <Navbar />
       <Hero />
       <div className=''>
