@@ -23,6 +23,8 @@ a {
 
 .container{
   @apply max-w-md sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl;
+  @apply px-5 lg:px-10;
+  @apply mx-auto;
 }
 
 .bg-image3{

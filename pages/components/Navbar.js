@@ -1,5 +1,5 @@
 import { Disclosure } from '@headlessui/react'
-import { DeviceMobileIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
 
 const navigation = [
