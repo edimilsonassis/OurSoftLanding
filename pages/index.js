@@ -2,7 +2,7 @@ import { CloudDownloadIcon, FolderIcon } from '@heroicons/react/solid'
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from './components/Hero'
-import Whatsapp from './components/Icons'
+import Whatsapp, { PlayStore, Windows } from './components/Icons'
 import Navbar from './components/Navbar'
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <div className='space-y-32'>
         <section className='container my-32 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-center'>
           <div className='rounded-xl bg-white shadow-xl border border-gray-100 col-span-1 p-9 space-y-3 hover:-translate-y-3 transition-all duration-150'>
-            <FolderIcon className='text-violet-700 h-10 w-10' />
+            <FolderIcon className='text-teal-500 h-10 w-10' />
             <div className='font-medium text-lg'>
               Modular
             </div>
@@ -22,7 +22,7 @@ export default function Home() {
             </div>
           </div>
           <div className='rounded-xl bg-white shadow-xl border border-gray-100 col-span-1 p-9 space-y-3 hover:-translate-y-3 transition-all duration-150'>
-            <FolderIcon className='text-violet-700 h-10 w-10' />
+            <FolderIcon className='text-teal-500 h-10 w-10' />
             <div className='font-medium text-lg'>
               Modular
             </div>
@@ -31,7 +31,7 @@ export default function Home() {
             </div>
           </div>
           <div className='rounded-xl bg-white shadow-xl border border-gray-100 col-span-1 p-9 space-y-3 hover:-translate-y-3 transition-all duration-150'>
-            <FolderIcon className='text-violet-700 h-10 w-10' />
+            <FolderIcon className='text-teal-500 h-10 w-10' />
             <div className='font-medium text-lg'>
               Modular
             </div>
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
           </div>
           <div className='rounded-xl bg-white shadow-xl border border-gray-100 col-span-1 p-9 space-y-3 hover:-translate-y-3 transition-all duration-150'>
-            <FolderIcon className='text-violet-700 h-10 w-10' />
+            <FolderIcon className='text-teal-500 h-10 w-10' />
             <div className='font-medium text-lg'>
               Modular
             </div>
@@ -54,10 +54,11 @@ export default function Home() {
           <div className='container my-32 grid grid-cols-2 gap-8 justify-center'>
             <div className='col-span-2 lg:col-span-1 space-y-8'>
               <div className='text-4xl font-bold text-gray-800'>
-                Apdash ajuda a gerenciar tudo para você
+                Rise ajuda a gerenciar tudo para você
               </div>
-              <div className='text-gray-500 text-'>
-                Afetam monotonectalmente os serviços eletrônicos sustentáveis com infomediários front-end.Colaborativamente em rede soluções funcionais, enquanto as iniciativas.Pontificar progressivamente o pensamento colaborativo para.                <ul className='dot-circle'>
+              <div className='text-gray-500'>
+                Afetam monotonectalmente os serviços eletrônicos sustentáveis com infomediários front-end.Colaborativamente em rede soluções funcionais, enquanto as iniciativas.Pontificar progressivamente o pensamento colaborativo para.
+                <ul className='dot-circle mt-4'>
                   <li>
                     As pessoas não estão acorrentadas a desktops ou laptops para ajudar e gravar.
                   </li>
@@ -76,7 +77,6 @@ export default function Home() {
                   <li>
                     Otimize objetivamente os vetores de qualidade de back -end e para diferentes.
                   </li>
-
                 </ul>
               </div>
             </div>
@@ -102,10 +102,11 @@ export default function Home() {
           </div>
           <div className='col-span-2 lg:col-span-1 space-y-8'>
             <div className='text-4xl font-bold text-gray-800'>
-              Apdash Help to Manage Everything for You
+              RISE ajuda a gerenciar tudo para você
             </div>
             <div className='text-gray-500 space-y-8'>
-              Afetam monotonectalmente os serviços eletrônicos sustentáveis com infomediários front-end.Colaborativamente em rede soluções funcionais, enquanto as iniciativas.Pontificar progressivamente o pensamento colaborativo para.              <ul className='dot-circle'>
+              Afetam monotonectalmente os serviços eletrônicos sustentáveis com infomediários front-end.Colaborativamente em rede soluções funcionais, enquanto as iniciativas.Pontificar progressivamente o pensamento colaborativo para.
+              <ul className='dot-circle mt-4'>
                 <li>
                   As pessoas não estão acorrentadas a desktops ou laptops para ajudar e gravar.
                 </li>
@@ -127,7 +128,7 @@ export default function Home() {
               </ul>
               <div className='w-full'>
                 <a href="#" >
-                  <div className="rounded-full text-sm whitespace-nowrap text-white bg-fuchsia-700 text-center p-4">
+                  <div className="rounded-full text-sm whitespace-nowrap text-white bg-teal-500 text-center p-4">
                     Baixe Agora
                     <CloudDownloadIcon className='ml-2 w-4 inline-block' />
                   </div>
@@ -139,86 +140,91 @@ export default function Home() {
 
         <section className="container">
           <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
-            explorar nosso <br /> incrível <span className="text-blue-500">Componentes</span>
+            explorar nosso <br /> incrível <span className="text-teal-500">Componentes</span>
           </h1>
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
-            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl dark:bg-gray-800">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
+            <div className="flex flex-col items-center p-6 justify-between space-y-3 text-center shadow-xl border border-slate-100 bg-white rounded-xl dark:bg-gray-800">
+              <span className="inline-block p-3 text-teal-500 bg-teal-100 rounded-full dark:text-white dark:bg-teal-500">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
                 </svg>
               </span>
 
-              <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Copy & paste components</h1>
+              <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+                componentes fe Copiar e colar
+              </h1>
 
               <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                Lorem muito cenouras aprimoradas no medicamento.Fornecimento de zero e digno ou não dores corrompidas de prazeres ocorrerão
               </p>
 
-              <a href="#" className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-200 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                <span className="mx-1">read more</span>
+              <a href="#" className="flex items-center -mx-1 text-sm text-teal-500 capitalize transition-colors duration-200 transform dark:text-teal-400 hover:underline hover:text-teal-500 dark:hover:text-teal-500">
+                <span className="mx-1">Mais informação</span>
                 <svg className="w-4 h-4 mx-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
               </a>
             </div>
 
-            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl dark:bg-gray-800">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
+            <div className="flex flex-col items-center p-6 justify-between space-y-3 text-center shadow-xl border border-slate-100 bg-white rounded-xl dark:bg-gray-800">
+              <span className="inline-block p-3 text-teal-500 bg-teal-100 rounded-full dark:text-white dark:bg-teal-500">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                 </svg>
               </span>
 
-              <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Zero Configrations</h1>
+              <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+                Zero configurações
+              </h1>
 
               <p className="text-gray-500 dark:text-gray-300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
               </p>
 
-              <a href="#" className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-200 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                <span className="mx-1">read more</span>
+              <a href="#" className="flex items-center -mx-1 text-sm text-teal-500 capitalize transition-colors duration-200 transform dark:text-teal-400 hover:underline hover:text-teal-500 dark:hover:text-teal-500">
+                <span className="mx-1">Mais informação</span>
                 <svg className="w-4 h-4 mx-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
               </a>
             </div>
 
-            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl dark:bg-gray-800">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
+            <div className="flex flex-col items-center p-6 justify-between space-y-3 text-center shadow-xl border border-slate-100 bg-white rounded-xl dark:bg-gray-800">
+              <span className="inline-block p-3 text-teal-500 bg-teal-100 rounded-full dark:text-white dark:bg-teal-500">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                 </svg>
               </span>
 
-              <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Simple & clean designs</h1>
+              <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+                Designs simples e limpos
+              </h1>
 
               <p className="text-gray-500 dark:text-gray-300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
               </p>
 
-              <a href="#" className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-200 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                <span className="mx-1">read more</span>
+              <a href="#" className="flex items-center -mx-1 text-sm text-teal-500 capitalize transition-colors duration-200 transform dark:text-teal-400 hover:underline hover:text-teal-500 dark:hover:text-teal-500">
+                <span className="mx-1">Mais informação</span>
                 <svg className="w-4 h-4 mx-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
               </a>
             </div>
           </div>
         </section>
 
-        <section className='bg-blue-800 py-20 text-white bg-image2'>
+        <section className='bg-teal-800 py-20 text-white bg-image2'>
           <div className='container text-center space-y-8'>
-            <div className='text-3xl'>Download Our Apps</div>
+            <div className='text-3xl'>Baixe nossos aplicativos</div>
             <p>
-              Start working with that can provide everything you need to generate awareness, drive traffic, connect. Efficiently transform granular value with client-focused content. Energistically redefine market.
+              O aplicativo móvel MobWaiter simplifica o atendimento às mesas para que você possa fazer mais trabalhos com mais rapidez.
+              <br /><small>
+                Grátis para usuários ilimitados.
+              </small>
             </p>
             <div className='flex flex-col sm:flex-row justify-center gap-4'>
-              <a href="#" className="rounded-full text-sm whitespace-nowrap text-white bg-fuchsia-700 text-center p-4">
-                Download Now
-                <CloudDownloadIcon className='ml-2 w-4 inline-block' />
+              <a href="#" className="rounded-full text-sm whitespace-nowrap text-white bg-teal-500 text-center px-4 py-3">
+                Windows
+                <Windows className='ml-2 w-4 inline-block' />
               </a>
-              <a href="#" className="rounded-full text-sm whitespace-nowrap text-white bg-fuchsia-700 text-center p-4">
-                Download Now
-                <CloudDownloadIcon className='ml-2 w-4 inline-block' />
-              </a>
-              <a href="#" className="rounded-full text-sm whitespace-nowrap text-white bg-fuchsia-700 text-center p-4">
-                Download Now
-                <CloudDownloadIcon className='ml-2 w-4 inline-block' />
+              <a href="#" className="rounded-full text-sm whitespace-nowrap text-white bg-teal-500 text-center px-4 py-3">
+                Android
+                <PlayStore className='ml-2 w-4 inline-block' />
               </a>
             </div>
           </div>
@@ -231,13 +237,18 @@ export default function Home() {
 
           <div className="flex flex-col items-center mt-6 xl:items-start xl:w-1/2 xl:mt-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-800 xl:text-4xl dark:text-white">
-              Download our free mobile app
+              Baixe nosso aplicativo móvel gratuito
             </h2>
 
-            <p className="block max-w-2xl mt-4 text-xl text-gray-500 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto recusandae tenetur iste quaerat voluptatibus quibusdam nam repudiandae </p>
+            <p className="block max-w-2xl mt-4 text-xl text-gray-500 dark:text-gray-300">
+              O aplicativo móvel MobWaiter simplifica o atendimento às mesas para que você possa fazer mais trabalhos com mais rapidez.
+              <br /><small>
+                Grátis para usuários ilimitados.
+              </small>
+            </p>
 
             <div className="mt-6 sm:-mx-2">
-              <div className="inline-flex w-full overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2">
+              {/* <div className="inline-flex w-full overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2">
                 <a href="#" className="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white bg-gradient-to-r from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-600 sm:w-auto">
                   <svg className="w-6 h-6 mx-2 fill-current" viewBox="0 0 512 512" >
                     <g>
@@ -273,13 +284,13 @@ export default function Home() {
                     Get it on the App Store
                   </span>
                 </a>
-              </div>
+              </div> */}
 
               <div className="inline-flex w-full mt-4 overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2 sm:mt-0">
-                <a href="#" className="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900 hover:from-blue-600 hover:to-blue-600">
+                <a href="#" className="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-teal-600 to-teal-900 hover:from-teal-500 hover:to-teal-500">
                   <svg className="w-6 h-6 mx-2 fill-current" viewBox="-28 0 512 512.00075" xmlns="http://www.w3.org/2000/svg"><path d="m432.320312 215.121094-361.515624-208.722656c-14.777344-8.53125-32.421876-8.53125-47.203126 0-.121093.070312-.230468.148437-.351562.21875-.210938.125-.421875.253906-.628906.390624-14.175782 8.636719-22.621094 23.59375-22.621094 40.269532v417.445312c0 17.066406 8.824219 32.347656 23.601562 40.878906 7.390626 4.265626 15.496094 6.398438 23.601563 6.398438s16.214844-2.132812 23.601563-6.398438l361.519531-208.722656c14.777343-8.53125 23.601562-23.8125 23.601562-40.878906s-8.824219-32.347656-23.605469-40.878906zm-401.941406 253.152344c-.21875-1.097657-.351562-2.273438-.351562-3.550782v-417.445312c0-2.246094.378906-4.203125.984375-5.90625l204.324219 213.121094zm43.824219-425.242188 234.21875 135.226562-52.285156 54.539063zm-6.480469 429.679688 188.410156-196.527344 54.152344 56.484375zm349.585938-201.835938-80.25 46.332031-60.125-62.714843 58.261718-60.773438 82.113282 47.40625c7.75 4.476562 8.589844 11.894531 8.589844 14.875s-.839844 10.398438-8.589844 14.875zm0 0"></path></svg>
                   <span className="mx-2">
-                    Get it on Google Play
+                    Baixe pela Google Play
                   </span>
                 </a>
               </div>
@@ -289,16 +300,18 @@ export default function Home() {
 
         <section className='container space-y-16'>
           <div className='text-center space-y-8'>
-            <div className='text-4xl text-blue-900'>Apdash Features</div>
+            <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-4xl dark:text-white">
+              Recursos do MobWaiter
+            </h1>
             <p className='max-w-3xl mx-auto text-gray-500'>
-              Objectively deliver professional value with diverse web-readiness. Collaboratively transition wireless customer service without goal-oriented catalysts for change. Collaboratively.
+              Ofereça objetivamente o valor profissional com diversas leituras na Web.Transição colaborativa Atendimento ao cliente sem fio sem catalisadores orientados a objetivos para mudança.Colaborativamente.
             </p>
           </div>
           <div className='grid lg:grid-cols-3 gap-8'>
             <div className='grid space-y-4 py-14'>
               <div className='grid grid-cols-6'>
                 <div className='col-span-1'>
-                  <CloudDownloadIcon className='w-12 h-12 text-blue-900' />
+                  <CloudDownloadIcon className='w-12 h-12 text-teal-500' />
                 </div>
                 <div className='col-span-5'>
                   <div className='text-xl mb-2'>
@@ -311,7 +324,7 @@ export default function Home() {
               </div>
               <div className='grid grid-cols-6'>
                 <div className='col-span-1'>
-                  <CloudDownloadIcon className='w-12 h-12 text-blue-900' />
+                  <CloudDownloadIcon className='w-12 h-12 text-teal-500' />
                 </div>
                 <div className='col-span-5'>
                   <div className='text-xl mb-2'>
@@ -324,7 +337,7 @@ export default function Home() {
               </div>
               <div className='grid grid-cols-6'>
                 <div className='col-span-1'>
-                  <CloudDownloadIcon className='w-12 h-12 text-blue-900' />
+                  <CloudDownloadIcon className='w-12 h-12 text-teal-500' />
                 </div>
                 <div className='col-span-5'>
                   <div className='text-xl mb-2'>
@@ -347,7 +360,7 @@ export default function Home() {
             <div className='grid space-y-4 py-14'>
               <div className='grid grid-cols-6'>
                 <div className='col-span-1'>
-                  <CloudDownloadIcon className='w-12 h-12 text-blue-900' />
+                  <CloudDownloadIcon className='w-12 h-12 text-teal-500' />
                 </div>
                 <div className='col-span-5'>
                   <div className='text-xl mb-2'>
@@ -360,7 +373,7 @@ export default function Home() {
               </div>
               <div className='grid grid-cols-6'>
                 <div className='col-span-1'>
-                  <CloudDownloadIcon className='w-12 h-12 text-blue-900' />
+                  <CloudDownloadIcon className='w-12 h-12 text-teal-500' />
                 </div>
                 <div className='col-span-5'>
                   <div className='text-xl mb-2'>
@@ -373,7 +386,7 @@ export default function Home() {
               </div>
               <div className='grid grid-cols-6'>
                 <div className='col-span-1'>
-                  <CloudDownloadIcon className='w-12 h-12 text-blue-900' />
+                  <CloudDownloadIcon className='w-12 h-12 text-teal-500' />
                 </div>
                 <div className='col-span-5'>
                   <div className='text-xl mb-2'>
@@ -396,7 +409,7 @@ export default function Home() {
               </div>
 
               <div className="max-w-xl px-6 py-12 lg:max-w-5xl lg:w-1/2">
-                <h2 className="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">Construa seu novo <span className="text-blue-600 dark:text-blue-400">Idéia</span></h2>
+                <h2 className="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">Construa seu novo <span className="text-teal-500 dark:text-teal-400">Idéia</span></h2>
                 <p className="mt-4 text-gray-600 dark:text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
 
                 <div className="mt-8">
@@ -419,7 +432,7 @@ export default function Home() {
               <h1 className="text-xl font-semibold text-gray-800 dark:text-white">Tópicos</h1>
 
               <div className="mt-4 space-y-4 lg:mt-8">
-                <a href="#" className="block text-blue-500 dark:text-blue-400 hover:underline">Em geral</a>
+                <a href="#" className="block text-teal-500 dark:text-teal-400 hover:underline">Em geral</a>
                 <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Confiança / segurança</a>
                 <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Serviços</a>
                 <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Cobrança</a>
@@ -430,7 +443,7 @@ export default function Home() {
             <div className="flex-1 mt-8 lg:mx-12 lg:mt-0">
               <div>
                 <button className="flex items-center focus:outline-none">
-                  <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 12H4"></path></svg>
+                  <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 12H4"></path></svg>
 
                   <h1 className="mx-4 text-xl text-gray-700 dark:text-white">
                     Como posso jogar para minha consulta?
@@ -438,7 +451,7 @@ export default function Home() {
                 </button>
 
                 <div className="flex mt-8 md:mx-10">
-                  <span className="border border-blue-500"></span>
+                  <span className="border border-teal-500"></span>
 
                   <p className="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.
@@ -450,7 +463,7 @@ export default function Home() {
 
               <div>
                 <button className="flex items-center focus:outline-none">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
                   </svg>
 
@@ -464,7 +477,7 @@ export default function Home() {
 
               <div>
                 <button className="flex items-center focus:outline-none">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
                   </svg>
 
@@ -476,7 +489,7 @@ export default function Home() {
 
               <div>
                 <button className="flex items-center focus:outline-none">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
                   </svg>
 
@@ -488,7 +501,7 @@ export default function Home() {
 
               <div>
                 <button className="flex items-center focus:outline-none">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
                   </svg>
 
@@ -506,7 +519,7 @@ export default function Home() {
                 <span className="block">
                   Pronto para começar?
                 </span>
-                <span className="block text-blue-600">
+                <span className="block text-teal-500">
                   Comece sua avaliação gratuita ainda hoje.
                 </span>
               </h2>
@@ -514,7 +527,7 @@ export default function Home() {
                 <div className="inline-flex rounded-md shadow">
                   <a
                     href="#"
-                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
+                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-500 hover:bg-teal-600"
                   >
                     Iniciar
                   </a>
@@ -522,7 +535,7 @@ export default function Home() {
                 <div className="ml-3 inline-flex rounded-md shadow">
                   <a
                     href="#"
-                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50"
+                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-teal-500 bg-white hover:bg-teal-50"
                   >
                     Aprender mais
                   </a>
@@ -544,14 +557,14 @@ export default function Home() {
           </p>
 
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-teal-500 dark:border-gray-700 dark:hover:border-transparent">
               <div className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 overflow-hidden">
                 <Image width={128} height={128} className="object-cover" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
               </div>
 
               <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Xaronildo</h1>
 
-              <p className="mt-2 text-gray-500 dark:text-gray-300 group-hover:text-gray-300">Diretor de Design</p>
+              <p className="mt-2 text-gray-500 dark:text-gray-300 group-hover:text-gray-100">Diretor de Design</p>
 
               <div className="flex mt-3 -mx-2">
 
@@ -561,14 +574,14 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-teal-500 dark:border-gray-700 dark:hover:border-transparent">
               <div className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 overflow-hidden">
                 <Image width={128} height={128} className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
               </div>
 
               <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Amelia</h1>
 
-              <p className="mt-2 text-gray-500 dark:text-gray-300 group-hover:text-gray-300">Desenvolvedor-chefe</p>
+              <p className="mt-2 text-gray-500 dark:text-gray-300 group-hover:text-gray-100">Desenvolvedor-chefe</p>
 
               <div className="flex mt-3 -mx-2">
 
@@ -578,14 +591,14 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-teal-500 dark:border-gray-700 dark:hover:border-transparent">
               <div className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 overflow-hidden">
                 <Image width={128} height={128} className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
               </div>
 
               <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Olivia Wathan</h1>
 
-              <p className="mt-2 text-gray-500 dark:text-gray-300 group-hover:text-gray-300">Designer-chefe</p>
+              <p className="mt-2 text-gray-500 dark:text-gray-300 group-hover:text-gray-100">Designer-chefe</p>
 
               <div className="flex mt-3 -mx-2">
 
@@ -595,14 +608,14 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-teal-500 dark:border-gray-700 dark:hover:border-transparent">
               <div className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 overflow-hidden">
                 <Image width={128} height={128} className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
               </div>
 
               <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">John Doe</h1>
 
-              <p className="mt-2 text-gray-500 dark:text-gray-300 group-hover:text-gray-300">Desenvolvedor</p>
+              <p className="mt-2 text-gray-500 dark:text-gray-300 group-hover:text-gray-100">Desenvolvedor</p>
 
               <div className="flex mt-3 -mx-2">
 
@@ -614,7 +627,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-blue-600 py-16">
+        <section className="bg-teal-500 py-16">
           <div className="container">
             <div className="flex flex-wrap -mx-4">
               <div className="w-full px-4">
@@ -626,8 +639,7 @@ export default function Home() {
                     Nosso plano de preços
                   </h2>
                   <p className="text-base text-body-color">
-                    Existem muitas variações de passagens de Lorem ipsum disponível
-                    Mas a maioria sofreu alteração de alguma forma.
+                    Com um sistema totalmente modular, você pode ter a solução mais justa para suas necessidades sem pagar por algo que não usa!
                   </p>
                 </div>
               </div>
@@ -641,8 +653,8 @@ export default function Home() {
                   </span>
                   <h2 className="font-bold text-dark mb-5 text-[42px]">
                     R$ 59
-                    <span className="text-base text-body-color font-medium">
-                      / year
+                    <span className="text-base text-body-color font-medium ml-1">
+                      ano
                     </span>
                   </h2>
                   <p className="text-base text-body-color pb-8 mb-8 border-b border-[#F2F2F2]">
@@ -670,7 +682,7 @@ export default function Home() {
                   </div>
                   <a
                     href="javascript:void(0)"
-                    className="w-full block text-base font-semibold text-primary bg-transparent border border-[#D4DEFF] rounded-md text-center p-4 hover:text-white hover:bg-blue-600 hover:border-primary transition">
+                    className="w-full block text-base font-semibold text-primary bg-transparent border border-[#D4DEFF] rounded-md text-center p-4 hover:text-white hover:bg-teal-500 hover:border-primary transition">
                     Escolha pessoal
                   </a>
                   <div>
@@ -692,7 +704,7 @@ export default function Home() {
                             y2="172"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stopColor="#3056D3" stopOpacity="0.09" />
+                            <stop stopColor="#14b8a6" stopOpacity="0.09" />
                             <stop
                               offset="1"
                               stopColor="#C4C4C4"
@@ -715,224 +727,224 @@ export default function Home() {
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 38.9138 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 38.9138 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 38.9138 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 38.9138 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 38.9138 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 38.9138 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 38.9138 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="1.42021"
                           r="1.42021"
                           transform="rotate(180 38.9138 1.42021)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 26.4157 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 26.4157 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 26.4157 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 26.4157 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 26.4157 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 26.4157 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 26.4157 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="1.4202"
                           r="1.42021"
                           transform="rotate(180 26.4157 1.4202)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 13.9177 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 13.9177 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 13.9177 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 13.9177 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 13.9177 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 13.9177 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 13.9177 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="1.42019"
                           r="1.42021"
                           transform="rotate(180 13.9177 1.42019)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 1.41963 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 1.41963 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 1.41963 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 1.41963 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 1.41963 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 1.41963 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 1.41963 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="1.4202"
                           r="1.42021"
                           transform="rotate(180 1.41963 1.4202)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                       </svg>
                     </span>
@@ -947,8 +959,8 @@ export default function Home() {
                   </span>
                   <h2 className="font-bold text-dark mb-5 text-[42px]">
                     R$ 199
-                    <span className="text-base text-body-color font-medium">
-                      / ano
+                    <span className="text-base text-body-color font-medium ml-1">
+                      ano
                     </span>
                   </h2>
                   <p
@@ -975,7 +987,7 @@ export default function Home() {
                       Apoio de 4 meses
                     </p>
                   </div>
-                  <a href="javascript:void(0)" className="w-full block text-base font-semibold text-white bg-blue-600 border border-primary rounded-md text-center p-4 hover:bg-opacity-90 transition" >
+                  <a href="javascript:void(0)" className="w-full block text-base font-semibold text-white bg-teal-500 border border-primary rounded-md text-center p-4 hover:bg-opacity-90 transition" >
                     Escolha negócios
                   </a>
                   <div>
@@ -997,7 +1009,7 @@ export default function Home() {
                             y2="172"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stopColor="#3056D3" stopOpacity="0.09" />
+                            <stop stopColor="#14b8a6" stopOpacity="0.09" />
                             <stop
                               offset="1"
                               stopColor="#C4C4C4"
@@ -1020,224 +1032,224 @@ export default function Home() {
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 38.9138 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 38.9138 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 38.9138 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 38.9138 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 38.9138 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 38.9138 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 38.9138 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="1.42021"
                           r="1.42021"
                           transform="rotate(180 38.9138 1.42021)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 26.4157 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 26.4157 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 26.4157 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 26.4157 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 26.4157 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 26.4157 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 26.4157 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="1.4202"
                           r="1.42021"
                           transform="rotate(180 26.4157 1.4202)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 13.9177 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 13.9177 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 13.9177 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 13.9177 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 13.9177 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 13.9177 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 13.9177 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="1.42019"
                           r="1.42021"
                           transform="rotate(180 13.9177 1.42019)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 1.41963 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 1.41963 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 1.41963 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 1.41963 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 1.41963 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 1.41963 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 1.41963 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="1.4202"
                           r="1.42021"
                           transform="rotate(180 1.41963 1.4202)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                       </svg>
                     </span>
@@ -1252,8 +1264,8 @@ export default function Home() {
                   </span>
                   <h2 className="font-bold text-dark mb-5 text-[42px]">
                     R$ 256
-                    <span className="text-base text-body-color font-medium">
-                      / ano
+                    <span className="text-base text-body-color font-medium ml-1">
+                      ano
                     </span>
                   </h2>
                   <p className="text-base text-body-color pb-8 mb-8 border-b border-[#F2F2F2]">
@@ -1281,7 +1293,7 @@ export default function Home() {
                   </div>
                   <a
                     href="javascript:void(0)"
-                    className=" w-full block text-base font-semibold text-primary bg-transparent border border-[#D4DEFF] rounded-md text-center p-4 hover:text-white hover:bg-blue-600 hover:border-primary transition">
+                    className=" w-full block text-base font-semibold text-primary bg-transparent border border-[#D4DEFF] rounded-md text-center p-4 hover:text-white hover:bg-teal-500 hover:border-primary transition">
                     Escolha profissional
                   </a>
                   <div>
@@ -1303,7 +1315,7 @@ export default function Home() {
                             y2="172"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stopColor="#3056D3" stopOpacity="0.09" />
+                            <stop stopColor="#14b8a6" stopOpacity="0.09" />
                             <stop
                               offset="1"
                               stopColor="#C4C4C4"
@@ -1326,224 +1338,224 @@ export default function Home() {
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 38.9138 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 38.9138 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 38.9138 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 38.9138 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 38.9138 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 38.9138 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 38.9138 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="38.9138"
                           cy="1.42021"
                           r="1.42021"
                           transform="rotate(180 38.9138 1.42021)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 26.4157 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 26.4157 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 26.4157 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 26.4157 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 26.4157 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 26.4157 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 26.4157 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="26.4157"
                           cy="1.4202"
                           r="1.42021"
                           transform="rotate(180 26.4157 1.4202)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 13.9177 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 13.9177 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 13.9177 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 13.9177 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 13.9177 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 13.9177 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 13.9177 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="13.9177"
                           cy="1.42019"
                           r="1.42021"
                           transform="rotate(180 13.9177 1.42019)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="87.4849"
                           r="1.42021"
                           transform="rotate(180 1.41963 87.4849)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="74.9871"
                           r="1.42021"
                           transform="rotate(180 1.41963 74.9871)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="62.4892"
                           r="1.42021"
                           transform="rotate(180 1.41963 62.4892)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="38.3457"
                           r="1.42021"
                           transform="rotate(180 1.41963 38.3457)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="13.634"
                           r="1.42021"
                           transform="rotate(180 1.41963 13.634)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="50.2754"
                           r="1.42021"
                           transform="rotate(180 1.41963 50.2754)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="26.1319"
                           r="1.42021"
                           transform="rotate(180 1.41963 26.1319)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                         <circle
                           cx="1.41963"
                           cy="1.4202"
                           r="1.42021"
                           transform="rotate(180 1.41963 1.4202)"
-                          fill="#3056D3"
+                          fill="#14b8a6"
                         />
                       </svg>
                     </span>

@@ -13,7 +13,7 @@ const navigation = [
 
 export default function Hero() {
     return (
-        <div className="relative bg-gradient-to-r from-[#4f1bc5] to-[#7b17c5] overflow-hidden">
+        <div className="relative bg-gradiente overflow-hidden">
             <main className="container flex flex-col md:flex-row gap-y-5 justify-between items-center mx-auto my-9">
                 <div className="w-full lg:w-2/4 xl:w-1/2 tracking-tight">
                     <div className="text-white space-y-6">
@@ -22,14 +22,14 @@ export default function Hero() {
                             Procrastina holística convergência missionária-crítica com atendimento ao cliente confiável.O compartilhamento de idéias assertivamente decepcionalmente para soluções impactantes.
                         </p>
                         <div className="action-btns flex flex-col sm:flex-row gap-4">
-                            <a href="#" className="rounded-full text-sm whitespace-nowrap text-white bg-fuchsia-700 text-center p-4">
-                                Download Now
+                            <a href="#" className="rounded-full text-sm whitespace-nowrap text-white bg-teal-600 text-center p-4">
+                                Baixe Agora
                                 <CloudDownloadIcon className='ml-2 w-4 inline-block' />
                             </a>
                             <a href="https://www.youtube.com/watch?v=1APwq1df6Mw" className="rounded-full text-sm whitespace-nowrap">
-                                <PlayIcon className='text-violet-500 font-extrabold text-xl bg-white rounded-full w-12 h-12 inline-block' />
+                                <PlayIcon className='text-teal-500 font-extrabold text-xl bg-white rounded-full w-12 h-12 inline-block' />
                                 <span className="pl-2">
-                                    Watch Now
+                                    Assista agora
                                 </span>
                             </a>
                         </div>
@@ -74,7 +74,7 @@ export default function Hero() {
                     <Image
                         height={613}
                         width={407}
-                        src="https://apdash.themetags.com/assets/img/app-mobile-image.png"
+                        src="/app-mobile-image.png"
                         alt="app image"
                         className="img-fluid"
                     />
