@@ -1,5 +1,4 @@
 import { CloudDownloadIcon, FolderIcon } from '@heroicons/react/solid'
-import Head from 'next/head'
 import Image from 'next/image'
 import Hero from './components/Hero'
 import Whatsapp, { PlayStore, Windows } from './components/Icons'
