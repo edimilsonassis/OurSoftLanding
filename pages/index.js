@@ -322,7 +322,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className='text-center'>
               <Image
                 alt=''
                 width={350}
